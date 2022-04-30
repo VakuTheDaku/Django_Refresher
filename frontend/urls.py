@@ -3,5 +3,8 @@ from .views import index
 
 urlpatterns = [
     
-    path('', index )
+    path('', index ),
+    path('homepage', index),
+    path('createroom', index),
+    path('joinroom', index)
 ]
